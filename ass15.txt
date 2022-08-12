@@ -1,0 +1,11 @@
+2.int arrangeCoins(int n){
+    int k=1;
+    while(n>0)
+    {
+        k++;
+        n=n-k;
+    }
+    return k-1;
+    
+
+}
